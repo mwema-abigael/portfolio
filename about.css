@@ -1,0 +1,46 @@
+*,*:after,*:before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main div{
+    background-color: lightcyan;
+    padding: 15px;
+    margin: 15px;  
+
+}
+img{
+    height: 100%;
+    border-radius: 50PX;
+}
+.ab{
+    background-color: lawngreen;
+}
+nav {
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+div a{
+    background-color:magenta;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    text-decoration: none;
+    border-radius: 15px;
+}
+header{
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+
+}
+body{
+    display: flex;
+    padding: 15px;
+    margin: 15px;
+    background-color:darkseagreen;
+
+
+}

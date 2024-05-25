@@ -1,0 +1,64 @@
+*,*:after,*:before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 72%;
+}
+body{
+    /*background-color: bisque;*/
+    display: flex;
+    justify-content: center;
+    flex-direction:  column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+    background-color: thistle;
+}
+nav{
+    background-color: blueviolet(82, 133, 175,0.856 );
+    height: 7rem;
+    width: 100%;
+}
+
+footer{
+    background-color: aqua(236 ,219, 219, 0.945);
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    border-top: 2px;
+}
+.container{
+    width: 95%;
+    max-width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-bottom: 0.5rem
+
+
+
+}
+
+.col-1{
+    width: 25;height: auto;
+    display: inline-block
+}
+
+//.col-1 > div {
+    border: 1px solid #9fc8ec;
+    height: 100PX;
+}
+
+.col-1 > div:not(:last-child) {
+    margin-right: 0.2rem;
+}
+
+.col-container{
+    display: flex;
+}
+.col-1{
+    col-3
+}
